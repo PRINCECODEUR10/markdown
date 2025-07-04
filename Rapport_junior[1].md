@@ -8,7 +8,7 @@
 
 ### Markdown
 
-Markdown est un format de balisage qui a pour extension md.
+Markdown est un langage de balisage léger qui a pour extension md.
 
 comme commande à utiliser sur markdown nous pouvons citer:
 

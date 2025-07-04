@@ -1,0 +1,178 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #fff;
+  color: #222;
+}
+
+.top-bar {
+  background: #0033a0;
+  color: #fff;
+  text-align: center;
+  padding: 8px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar .logo {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar li.Active {
+  color: red;
+}
+
+.icons  {
+  margin-left: 15px;
+  display: flex;        
+  gap: 15px;           
+  align-items: center;  
+  font-size: 16px;      
+  color: #000;
+  
+}
+
+.product-page {
+  display: flex;
+  padding: 30px;
+  gap: 50px;
+}
+
+.gallery {
+  display: flex;
+}
+
+.etiquettes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.etiquettes img,
+.main-image img {
+  width: 80px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.main-image img {
+  width: 350px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.produit {
+  max-width: 500px;
+  margin-left: 5%;
+}
+.produit h1 i{
+  padding-left: 100px;
+}
+
+.price {
+  font-size: 18px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #999;
+  margin-right: 10px;
+}
+
+.new-price {
+  color: #0033a0;
+  font-weight: bold;
+}
+.ratings {
+  margin: 10px 0;
+}
+
+.colors, .sizes {
+  margin: 15px 0;
+}
+
+.color-options {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.color {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  cursor: pointer;
+}
+
+.color.black {
+  background: black;
+}
+
+.color.grey {
+  background: #ccc;
+}
+
+.color.selected {
+  border: 2px solid #0033a0;
+}
+
+.size-options button {
+  margin-right: 5px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+  cursor: pointer;
+}
+
+.size-options button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.add-to-cart {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.add-to-cart button {
+  padding: 6px 12px;
+}
+
+.main-btn {
+  background-color: #0033a0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
+
+.description {
+ padding-left: 10px;
+ margin-left: -2%;
+  
+}
+
+.description h3 {
+  margin-bottom: 10px;
+}
+
