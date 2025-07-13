@@ -1,114 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2139c11586.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header class="min-w-100 bg-blue-800 min-h-10 text-white">
-        <p>EVERYTHING 50% OFF ARCHIVE SALE-DISCOUNT APPLIED IN CART</p>
-        <div class="text-right">FREE SHIPPING ON ORDERS</div>
-    </header>
-    <nav class="navbar">
-        <ul class="flex gap-5">
-            <li>WOMEN</li>
-            <li>MEN</li>
-            <li class="text-red-600">ARCHIVE SALE</li>
-        </ul>
-        <div class="text-center text-3xl font-bold">KIT ACE</div>
-        <div class="absolute flex top-12 right-0 mt-4 mr-4 gap-5">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-regular fa-heart"></i>
-            <i class="fa-regular fa-user"></i>
-            <i class="fa-solid fa-bag-shopping"></i>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg" alt="Canada" width="32"
-                height="24">
-            <span>🇨🇦 CAD($)</span>
-            <i class="fa-solid fa-circle-chevron-down"></i>
-        </div>
-    </nav>
-    <div class="breadcrumb">
-        <ul class="flex gap-5 text-gray-400 ">
-            <li>Home</li>
-            <li>Bestsellers</li>
-            <li>Wave Tee</li>
-        </ul>
-    </div>
-    <div class="container mx-auto px-6 py-8">
-        <div class="flex flex-col lg:flex-row gap-10">
-            <div class="flex flex-col gap-4">
-                <img class="w-16 md:w-20 lg:w-30" src="image/01-04 - Copie.jpg" alt="">
-                <img class="w-16 md:w-20 lg:w-30" src="image/02-01 - Copie.jpg" alt="">
-                <img class="w-16 md:w-20 lg:w-30" src="image/02-02 - Copie.jpg" alt="">
-                <img class="w-16 md:w-20 lg:w-30" src="image/02-03 - Copie - Copie.jpg" alt="">
-                <div class="absolute inset-0">
-                <img class="flex w-100 h-200 ml-50 mt-41" src="image/BACKG.jpg" alt="">
-                 </div>
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-white ">
+        <div class="flex flex-row justify-between p-4 items-center">
+            <div>
+                <img class="w-50 cursor-pointer" src="../images/logo.png" alt="">
+            </div>
+            <div>
+                <ul class="list-none flex flex-row gap-10 justify-between align-middle items-center text-sm">
+                    <li class="relative">
+                        <div class="relative">
+                            <i
+                                class="fa fa-search absolute left-3 top-1/2 -translate-y-1/2 lg:text-gray-400 md:text-black cursor-pointer"></i>
+                            <input type="text" placeholder="Ctrl K"
+                                class="hidden border-black bg-gray-100 pl-10 py-2 rounded-4xl max-w-25 w-full sm:hidden md:hidden lg:block xl:block">
+                        </div>
+                    </li>
+                    <li>
+                        <span class="sm:block md:block lg:hidden xl:hidden"><i class="fa fa-ellipsis-v cursor-pointer"
+                                aria-hidden="true"></i></span>
+                    </li>
+                    <li class="hidden sm:hidden md:hidden lg:block xl:block">
+                        <a href="#">UI Blocks</a>
+                    </li>
+                    <li class="hidden sm:hidden md:hidden lg:block xl:block">
+                        <a href="#">Templates</a>
+                    </li>
+                    <li class="hidden sm:hidden md:hidden lg:block xl:block">
+                        <a href="#">UI Kit</a>
+                    </li>
+                    <li class="hidden sm:hidden md:hidden lg:block xl:block text-gray-300">|</li>
+                    <li class="hidden sm:hidden md:hidden lg:block xl:block">
+                        <a href="#">Sign in</a>
+                    </li>
+                    <li class="hidden sm:hidden md:hidden lg:block xl:block">
+                        <button class="bg-black text-white px-2 py-1 rounded-4xl cursor-pointer">
+                            Get full access
+                        </button>
+                    </li>
+                </ul>
             </div>
         </div>
-        </div>
-        <div class="ml-160 absolute top-40 px-2">
-            <h1 class="text-3xl font-bold">WAVE TEE<i class="fa-regular fa-heart"></i></h1>
-            <p class="text-gray-500">Tech Jersey</p>
-            <p class="flex gap-4 items-center">
-                <span class="line-through text-gray-400 text-lg">$79.00</span>
-                <span class="text-blue-600 text-xl font-bold">$59.00</span>
-            </p>
-            <p class="text-sm text-gray-600">4 interest-free payments of $14.75 CAD with <strong>Klarna</strong>.or
-                after
-                <strong>pay</strong>
-            </p>
-            <div class="flex items-center gap-2">⭐⭐⭐⭐⭐(122 reviews)</div>
+        <hr>
+        <div>
+            <ul class="flex flex-row gap-2 px-6 py-3 text-sm">
+                <li><i class="fa fa-bars" aria-hidden="true"></i></li>
+                <li class="text-gray-500 min-w-17">UI Blocks</li>
+                <li>></li>
+                <li class="text-gray-500">Ecommerce</li>
+                <li><strong>> Components</strong></li>
+            </ul>
             <hr>
-            <div class="colors">
-                <p class="text-black">Color: Black</p>
-                <div class="flex gap-2">
-                    <div class="w-6 h-6 bg-black rounded-full border">
-                        <div class="w-6 h-6 co-300 rounded-full border"></div>
-                    </div>
-                    <div class="w-6 h-6 bg-gray-300 rounded-full border"></div>
-                </div>
-                <div class="color-options">
-                    <div class="color black selected"></div>
-                    <div class="color background"></div>
-                    <div class="color grey"></div>
-                </div>
+        </div>
+
+    </nav>
+
+    <div class="mt-40 m-4">
+        <h1 class="">Order Summaries</h1>
+        <p class="mt-6 max-w-3xl text-base/7 text-gray-600 text-left">
+            Use these Tailwind CSS order summary components to provide customers with a clear breakdown of their
+            purchases,
+            including itemized lists, quantities, prices, and total costs before completing their orders. These
+            components are
+            designed and built by the Tailwind CSS team, and include a variety of different styles and layouts.
+        </p>
+
+        <div class="flex flex-row gap-4">
+            <h2 class="">With split image</h2>
+            <button class="rounded bg-gray-300">preview</button>
+        </div>
+
+    </div>
+    <div class="text-right p-4">
+        <a class="text-blue-600" href="">Get the code<i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+    <main class="border-1 border-gray-200 rounded-2xl m-10 mt-40 ">
+        <div class="py-19 px-2 border-b-1 border-b-gray-200 lg:px-70">
+            <div class="pb-4 ">
+                <p class="text-blue-800 pb-3">Payment successful</p>
+                <p class="text-5xl font-bold pb-2">Thanks for ordering</p>
+                <p class="text-gray-500 text-md pb-10">
+                    We appreciate your order, we’re currently processing it. So hang tight and we’ll send you
+                    confirmation very soon!
+                </p>
             </div>
-            <div class="size-options">
+            <div>
+                <p class="text-sm pb-3 lg:pb-1">Tracking number</p>
+                <p class="text-blue-800 text-sm">51547878755545848512</p>
+            </div>
+        </div>
+        <div
+            class="flex flex-row gap-5 py-15 px-7 border-b-1 border-b-gray-200 text-sm lg:px-35 lg:max-w-240 lg:mx-auto">
+            <img src="../images/confirmation-page-06-product-01.jpg" draggable="false"
+                class="w-22 h-22 rounded-2xl sm:w-45 sm:h-45 lg:w-40 lg:h-40" alt="">
+            <div>
                 <div>
-                    <p class="font-semibold mb-1">Size:</p>
-                    <div class="flex gap-2">
-                        <button class="px-3 py-1 border bg-gray-100">XXS</button>
-                        <button class="px-3 py-1 border bg-gray-100">XS</button>
-                        <button class="px-3 py-1 border bg-gray-100">S</button>
-                        <button class="px-3 py-1 border bg-gray-100">M</button>
-                        <button class="px-3 py-1 border ">L</button>
-                        <button class="px-3 py-1 border ">XL</button>
+                    <p class="pb-2 text-lg">Basic Tee</p>
+                    <p class="text-gray-500">
+                        Charcoal
+                    </p>
+                    <p class="text-gray-500">
+                        L
+                    </p>
+                    <div class="flex flex-row mt-6 justify-between max-w-60 sm:mt-15">
+                        <span class="text-black">$32.00</span>
                     </div>
-                    <p class="text-blue-700">size guide</p>
                 </div>
             </div>
-            <div class="flex gap-0">
-                <div class="flex items-center border-none bg-gray-300 ">
-                    <button class="px-2">-</button>
-                    <span class="px-4">1</span>
-                    <button class="px-2">+</button>
+        </div>
+        <div
+            class="flex flex-row gap-5 py-15 px-7 border-b-1 border-b-gray-200 text-sm lg:px-35 lg:max-w-240 lg:mx-auto">
+            <img src="../images/confirmation-page-06-product-02.jpg" draggable="false"
+                class="w-22 h-22 rounded-2xl sm:w-45 sm:h-45 lg:w-40 lg:h-40" alt="">
+            <div>
+                <div>
+                    <p class="pb-2 text-lg">Artwork Tee — Iso Dots</p>
+                    <p class="text-gray-500">Peach</p>
+                    <p class="text-gray-500">L </p>
+
+                    <div class="flex flex-row mt-6 justify-between max-w-60 sm:mt-15">
+                        <span class="text-black">$32.00</span>
+                    </div>
                 </div>
-                <button class="bg-blue-500 text-white px-6 py-2  hover:bg-blue-600">SELECT SIZE</button>
-            </div>
-            <div class="description">
-                <h3><i class="fa-solid fa-pen"></i>DESCRIPTION</h3>
-                <p>Our fan favourite, this asymmetrical T-shirt silhouette is designed in our soft and functional Tech
-                    Tee
-                    fabric to elevated version of your favorite basic.This style draps in all the right place.The only
-                    question is
-                    how many coulours do you need?</p>
             </div>
         </div>
+
+        <div
+            class="flex flex-row gap-5 py-15 px-7 border-b-1 border-b-gray-200 text-sm lg:px-35 lg:max-w-240 lg:mx-auto">
+            <div>
+                <p class="pb-2 text-lg">Subtotal</p>
+                <p class="text-gray-500">Shipping</p>
+                <p class="text-gray-500">Taxes</p>
+            </div>
         </div>
+        <div class="flex flex-row justify-between py-15 px-7 border-b-1 border-b-gray-200 text-sm gap-10">
+            <div class="text-right">
+                <p class="pb-2"><strong>Total</strong></p>
+                <p class="pb-3">Shipping Address</p>
+                <p class="text-gray-600">Kristin Watson</p>
+                <p class="text-gray-600">7363 Cynthia Pass</p>
+                <p class="text-gray-600">Toronto, ON N3Y 4H8</p>
+            </div>
+            <div>
+                <p class="pb-2">$86</p>
+                <p class="pb-3">Payment Information</p>
+                <p class="text-gray-600">Ending with 4242</p>
+                <p class="text-gray-600">Expires 12 / 21</p>
+            </div>
+        </div>
+    </main>
 </body>
+
 </html>
